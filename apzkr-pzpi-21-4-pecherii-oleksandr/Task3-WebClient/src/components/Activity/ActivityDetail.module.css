@@ -1,0 +1,72 @@
+.activityDetailContainer {
+  padding: 20px;
+  background-color: #ACE2E1; /* Set background color for the container */
+  min-height: 100vh;
+}
+
+h1 {
+  color: #008DDA;
+  margin-bottom: 20px;
+}
+
+.activityDetails {
+  background-color: #F7EEDD;
+  border: 1px solid #008DDA;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.metricSelectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.metricSelectors label {
+  font-weight: bold;
+}
+
+.participationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.participationTable th,
+.participationTable td {
+  border: 1px solid #008DDA;
+  padding: 10px;
+  text-align: left;
+}
+
+.participationTable th {
+  background-color: #008DDA;
+  color: white;
+}
+
+.participationTable td {
+  background-color: #F7EEDD;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #008DDA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005f9e;
+}

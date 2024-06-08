@@ -1,0 +1,92 @@
+.organizerListContainer {
+  position: relative;
+  padding: 20px;
+  background-color: #ACE2E1; /* Set background color for the container */
+  height: 740px;
+}
+
+h1 {
+  color: #008DDA;
+  margin-top: 10px; /* Reduce the distance between the navbar and title */
+}
+
+.addOrganizerButton {
+  position: absolute;
+  top: 10px; /* Adjust to reduce distance from the navbar */
+  right: 60px;
+  background-color: #F7EEDD;
+  border-color: #0000;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0; 
+  font-size: 16px;
+  width: 250px;
+  color: #41C9E2; 
+}
+
+.addOrganizerButton:hover {
+  background-color: #E7DACD;
+}
+
+.filterContainer {
+  margin-bottom: 20px;
+  width: 240px;
+}
+
+.filterContainer label {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.filterContainer select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #008DDA;
+}
+
+.organizerList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+.organizerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F7EEDD;
+  border: 1px solid #008DDA;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: calc(33.33% - 20px); 
+  box-sizing: border-box; 
+}
+
+.organizerInfo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.organizerInfo strong {
+  font-size: 18px; 
+}
+
+button {
+  background-color: #008DDA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #005f9e;
+}

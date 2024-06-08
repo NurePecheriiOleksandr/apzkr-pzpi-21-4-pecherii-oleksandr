@@ -1,0 +1,67 @@
+.adminPageContainer {
+    padding: 20px;
+    background-color: #ACE2E1; 
+    min-height: 100vh;
+  }
+  
+  h1, h2 {
+    color: #008DDA;
+    margin-bottom: 20px;
+  }
+  
+  .diveComputerList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .diveComputerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7EEDD;
+    border: 1px solid #008DDA;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; 
+  }
+  
+  .buttonGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  button {
+    background-color: #008DDA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    width: 200px;
+  }
+  
+  button:hover {
+    background-color: #005f9e;
+  }
+  
+  .passwordField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    box-sizing: border-box; 
+  }
